@@ -210,7 +210,7 @@ window.onload = function () {
 var parameters = new function () {
     this.Caustic = true;
     this.Object = "sphere";
-    this.Pool_Pattern = "marble";
+    this.Pool_Pattern = "blue brick";
     this.Sphere_Radius = 0.25;
     this.Wind = true;
     this.Rain = false;
@@ -667,7 +667,7 @@ function initBuffers(model, primitive) {
 
 function initObjs() {
 
-    // objRaw = loadObj("img/obj/apple.obj");
+    objRaw = loadObj("img/obj/apple.obj");
     // objRaw = loadObj("img/obj/duck.obj");
 
     objRaw.addCallback(function () {
